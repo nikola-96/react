@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
@@ -9,9 +8,16 @@ import Hello from './components/Hello'
 function App() {
   return (
     <div className="App">
-      {/* {<Greet />
-        <Welcome />} */}
-      <Hello />
+      <Greet name="Bruce" heroName="Betman" >
+        <p>This is a children component!</p>{/*ovaj sadrzaj ce se izrenderovati u children klasi tako sto 
+        moramo da navedemo eksplicitno props.children */}
+      </Greet>
+      <Greet name="Klark" heroName="Superman" />
+      <Greet name="Nikola" heroName="Nikola" />
+      <Welcome name="Bruce" heroName="Betman" />
+      <Welcome name="Klark" heroName="Superman" />
+      <Welcome name="Nikola" heroName="Nikola" />
+      {/* <Hello /> */}
     </div>
   );
 }
