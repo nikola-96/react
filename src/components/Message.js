@@ -8,7 +8,7 @@ class Message extends Component {
         this.state = {
             message: 'Welcome visitor!'
         }
-    }/* da bi promenili tekst iz state moramo da iskoristimo ugradjenu fnj setState */
+    }/* da bi promenili tekst iz state moramo da iskoristimo ugradjenu fnj setStategi */
     changeMessage() {
         this.setState({
             message: 'Thanks for subscribing!'
