@@ -9,6 +9,7 @@ import ClickFunction from './components/ClickFunction'
 import ClickClass from './components/ClickClass'
 import EventBind from './components/EventBind'
 import ParentComp from './components/ParentComp'
+import UserGreeting from './components/UserGreeting'
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       {/* <ClickFunction /> */}
       {/* <ClickClass /> */}
       {/* <EventBind /> */}
-      <ParentComp />
+      {/* <ParentComp /> */}
+      <UserGreeting />
     </div>
   );
 }
