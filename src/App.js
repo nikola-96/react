@@ -13,6 +13,8 @@ import UserGreeting from './components/FirstPart/UserGreeting'
 import NameList from './components/FirstPart/NameList'
 import Form from './components/FirstPart/Form'
 import Table from './components/Table'
+import Hero from './components/Hero'
+import ErrorBoundary from './components/ErrorBoundary'
 
 function App() {
   return (
@@ -36,7 +38,17 @@ function App() {
       {/* <UserGreeting /> */}
       {/* <NameList /> */}
       {/* <Form /> */}
-      <Table />
+      {/* <Table /> */}
+      <ErrorBoundary>
+        <Hero heroName="Batman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Superman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Joker" />
+      </ErrorBoundary>
+
     </div>
   );
 }
