@@ -1,17 +1,18 @@
 import React from 'react';
 import './App.css';
-import Greet from './components/Greet';
-import Welcome from './components/Welcome';
-import Hello from './components/Hello'
-import Message from './components/Message'
-import Counter from './components/Counter'
-import ClickFunction from './components/ClickFunction'
-import ClickClass from './components/ClickClass'
-import EventBind from './components/EventBind'
-import ParentComp from './components/ParentComp'
-import UserGreeting from './components/UserGreeting'
-import NameList from './components/NameList'
-import Form from './components/Form'
+import Greet from './components/FirstPart/Greet';
+import Welcome from './components/FirstPart/Welcome';
+import Hello from './components/FirstPart/Hello'
+import Message from './components/FirstPart/Message'
+import Counter from './components/FirstPart/Counter'
+import ClickFunction from './components/FirstPart/ClickFunction'
+import ClickClass from './components/FirstPart/ClickClass'
+import EventBind from './components/FirstPart/EventBind'
+import ParentComp from './components/FirstPart/ParentComp'
+import UserGreeting from './components/FirstPart/UserGreeting'
+import NameList from './components/FirstPart/NameList'
+import Form from './components/FirstPart/Form'
+import Table from './components/Table'
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
       {/* <ParentComp /> */}
       {/* <UserGreeting /> */}
       {/* <NameList /> */}
-      <Form />
+      {/* <Form /> */}
+      <Table />
     </div>
   );
 }
