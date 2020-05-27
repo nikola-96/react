@@ -15,6 +15,8 @@ import Form from './components/FirstPart/Form'
 import Table from './components/Table'
 import Hero from './components/Hero'
 import ErrorBoundary from './components/ErrorBoundary'
+import HoverCounter from './components/HoverCounter'
+import ClickCounter from './components/ClickCounter'
 
 function App() {
   return (
@@ -39,7 +41,7 @@ function App() {
       {/* <NameList /> */}
       {/* <Form /> */}
       {/* <Table /> */}
-      <ErrorBoundary>
+      {/* <ErrorBoundary>
         <Hero heroName="Batman" />
       </ErrorBoundary>
       <ErrorBoundary>
@@ -47,7 +49,9 @@ function App() {
       </ErrorBoundary>
       <ErrorBoundary>
         <Hero heroName="Joker" />
-      </ErrorBoundary>
+      </ErrorBoundary> */}
+      <HoverCounter name="Nikola" />
+      <ClickCounter />
 
     </div>
   );
